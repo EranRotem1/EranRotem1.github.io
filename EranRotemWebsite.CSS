@@ -1,5 +1,5 @@
 body{
-    background-image: url("C:/Users/eran rotem/Desktop/repo/EranRotem1.github.io/forWebsite/webisteBackground.jpg");
+    background-image: url("forWebsite/webisteBackground.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
@@ -35,7 +35,7 @@ form{
     height: 700px;
     border: 5px #798ed1 groove;
     border-radius: 30px ;
-    background-image: url("C:/Users/eran rotem/Desktop/repo/EranRotem1.github.io/forWebsite/WSBackground3.jpg");
+    background-image: url("forWebsite/WSBackground3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
@@ -45,7 +45,7 @@ form{
 .d1{
     border: 3px black dotted;
     border-radius: 30px;
-    background-image: url("C:/Users/eran rotem/Pictures/Screenshots/Screenshot 2023-02-01 101834.png");
+    background-image: url("forWebsite/Screenshot 2023-02-01 101834.png");
     background-size: contain;
     width: 375px;
     height: 170;
@@ -57,7 +57,7 @@ form{
 .d2{
     border: 3px black dotted;
     border-radius: 30px;
-    background-image: url("C:/Users/eran rotem/Desktop/repo/EranRotem1.github.io/forWebsite/dungeonBackground.jpg");
+    background-image: url("forWebsite/dungeonBackground.jpg");
     background-size: contain;
     width: 375px;
     height: 170px;
