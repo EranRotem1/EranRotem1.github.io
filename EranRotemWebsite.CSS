@@ -42,36 +42,7 @@ form{
     margin-bottom: 15px;
 }
 
-.d1{
-    border: 3px black dotted;
-    border-radius: 30px;
-    background-image: url("forWebsite/Screenshot 2023-02-01 101834.png");
-    background-size: contain;
-    width: 375px;
-    height: 170;
-    margin-top: 40px;
-    margin-left: 90px;
-}
 
-
-.d2{
-    border: 3px black dotted;
-    border-radius: 30px;
-    background-image: url("forWebsite/dungeonBackground.jpg");
-    background-size: contain;
-    width: 375px;
-    height: 170px;
-    margin-top: 40px;
-    margin-left: 535px;
-}
-
-.d3{
-    border: 3px black dotted;
-    width: 375px;
-    height: 170;
-    margin-top: 40px;
-    margin-left: 90px;
-}
 
 #MM{
     color: #33cade;
@@ -95,4 +66,76 @@ form{
 #PyLogo{
     margin-right: 10px;
     margin-left: -3px;
+}
+
+
+.d1{
+    border: 3px black dotted;
+    border-radius: 30px;
+    background-image: url("forWebsite/Screenshot 2023-02-01 101834.png");
+    background-size: contain;
+    
+    width: 375px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+
+.d2{
+    border: 3px black dotted;
+    border-radius: 30px;
+    background-image: url("forWebsite/dungeonBackground.jpg");
+    background-size: contain;
+    
+    width: 375px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 535px;
+}
+
+.d3{
+    border: 3px black dotted;
+    width: 375px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.vid1{
+    width: 375px;
+    height: 170px;
+    margin-left: 535px;
+    margin-top: -175px;
+    background-color: #fff;
+    border:3px #143b42 solid;
+    
+    
+}
+
+.vid2{
+    border:3px #143b42 solid;
+    width: 375px;
+    height: 170px;
+    margin-top: -175px;
+    margin-left: 88px;
+    background-color: #fff;
+}
+
+.vid3{
+    border:3px #143b42 solid;
+    background-color: #fff;
+    margin-top: -175px;
+    margin-left: 535px ;
+    width: 375px;
+    height: 170px;
+
+}
+
+.sum{
+    border:5px #143b42 dotted;
+    border-radius: 40px;
+    width: 650px;
+    height: 200px;
+    margin: auto;
 }
