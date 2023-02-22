@@ -96,6 +96,9 @@ form{
 
 .d3{
     border: 3px black dotted;
+    border-radius: 30px;
+    background-image: url("forWebsite/bankingBG.avif");
+    background-size: 100%;
     width: 375px;
     height: 170px;
     margin-top: 40px;
