@@ -35,8 +35,9 @@ form{
     height: 700px;
     border: 5px #798ed1 groove;
     border-radius: 30px ;
-    background-image: url("forWebsite/WSBackground3.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("forWebsite/WSBackground3.jpg");
+    background-repeat: no-repeat; */
+    background-color: #cfeffc;
     background-size: 100% 100%;
     margin: auto;
     margin-bottom: 15px;
