@@ -136,7 +136,8 @@ form{
     margin-left: 535px ;
     width: 375px;
     height: 170px;
-
+    background-image: url("forWebsite/Screenshot_20230208_090902.png");
+    background-size: 100%;
 }
 
 .sum{
