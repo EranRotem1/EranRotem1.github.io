@@ -69,7 +69,6 @@ form{
     margin-left: -3px;
 }
 
-
 .d1{
     border: 3px black dotted;
     border-radius: 30px;
@@ -111,7 +110,9 @@ form{
     height: 170px;
     margin-left: 535px;
     margin-top: -175px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: url("forWebsite/BreakCamalCaseSolution.png");
+    background-size: 100%;
     border:3px #143b42 solid;
     
     
@@ -123,7 +124,9 @@ form{
     height: 170px;
     margin-top: -175px;
     margin-left: 88px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: url("forWebsite/Screenshot_20230208_013620.png");
+    background-size: 100%;
 }
 
 .vid3{
