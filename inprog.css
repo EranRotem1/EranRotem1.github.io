@@ -20,7 +20,7 @@ nav ul li a{
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: rgb(156, 156, 156);
+	color: rgb(115, 115, 115);
 	transition: .4s;
 }
 
@@ -34,13 +34,14 @@ footer{
     font-family: sans-serif;
     margin-left: 20;
     color: aliceblue;
-    margin-top: -50;
+    margin-top: -70;
+    margin-bottom: -10;
 }
 
 #name{
     font-size: 90;
     font-family: sans-serif;
-    color: aliceblue; 
+    color: rgb(210, 210, 210); 
     margin-left: 165;
     margin-bottom: -50;
     margin-top: -20;
@@ -51,7 +52,7 @@ footer{
     margin-left: 165;
     font-family: sans-serif;
     text-align: left;
-    color: lightgray;
+    color: rgb(184, 184, 184);
     margin-bottom: -30;
     margin-top: -30;
 }
@@ -78,8 +79,17 @@ h2{
     padding-top: 50;
 }
 
+.d{
+    width: 1950;
+    height: 820;
+    background-image: url("forWebsite/chicagoBG2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .d1{
     background-color: rgb(24, 24, 24);
+
     height: 650px;
 }
 
