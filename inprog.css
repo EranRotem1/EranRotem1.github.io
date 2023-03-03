@@ -24,12 +24,17 @@ nav ul li a:hover{
 	transition: .4s;
 }
 
+footer{
+    height: 200px;
+    background-color: black;
+}
+
 #port{
     font-size: 25;
     font-family: sans-serif;
     margin-left: 20;
     color: aliceblue;
-    margin-top: -80;
+    margin-top: -50;
 }
 
 #name{
@@ -37,7 +42,8 @@ nav ul li a:hover{
     font-family: sans-serif;
     color: aliceblue; 
     margin-left: 165;
-    margin-bottom: -40;
+    margin-bottom: -50;
+    margin-top: -20;
 }
 
 #se{
@@ -47,7 +53,7 @@ nav ul li a:hover{
     text-align: left;
     color: lightgray;
     margin-bottom: -30;
-    margin-top: 0;
+    margin-top: -30;
 }
 
 #aboutText{
@@ -69,7 +75,7 @@ h2{
     color: aliceblue;
     font-size: 35;
     text-align: center;
-    padding-top: 100;
+    padding-top: 50;
 }
 
 .d1{
@@ -86,12 +92,13 @@ h2{
 
 .d2{
     background-color: black;
-    height: 650px;
+    height: 750px;
 }
 
 .d3{
     background-color: rgb(28, 28, 28);
     height: 650px;
+
 }
 
 .d4{
@@ -99,62 +106,202 @@ h2{
     height: 650px;
 }
 
+.d5{
+    background-color: rgb(26, 26, 26);
+    height: 650px;
+
+}
+
 .vids{
     /* border: 3px dotted white; */
     border-radius: 50px;
     width: 1050;
     height: 400;
+    margin-left: 400;
+}
+/* .v1{
+    border-radius: 50px;
+    width: 1050;
+    height: 400;
     margin: auto;
+} */
+#vidsHeadline{
+    margin-left: -30;
+}
+
+.videos{
+    margin: auto;
+    text-align: center;
+    
 }
 
 video{
     border: 3px solid gray;
     border-radius: 50px;
     margin: 20px;
+    height: 160;
+    width: 320;
+    background-color: rgb(24, 24, 24);
+    margin-right: 70;
+    margin-left: 70;
 }
 
 .projects{
     margin: auto;
     border: 3px solid gray;
+    background-color: rgb(47, 47, 47);
     border-radius: 50px;
     height: 450;
     width: 1500;
+    /* text-align: center; */
 }
 
-/* .prj1{
-    margin: auto;
-    border: 3px double gray;
+#p1{
+    margin-left: 130px;
+}
+#p2{
+    margin-left: 130px;
+}
+#p3{
+    margin-left: 130px;
+}
+#p4{
+    margin-left: 130px;
+}
+
+.prj1{
+    margin: 20px;
+    /* border: 3px double gray; */
     border-radius: 50px;
-    width: 375;
+    width: 700;
     height: 200;
-    align-items: center;
+    margin-top: 10px;
+
 }
 
 .prj2{
-    margin: auto;
-    border: 3px double gray;
+    margin: 20px;
+    /* border: 3px double gray; */
     border-radius: 50px;
-    width: 375;
+    width: 700;
+    float: right;
     height: 200;
+    margin-top: -225;
+
 }
 
 .prj3{
-    margin: auto;
-    border: 3px double gray;
+    margin: 20px;
+    /* border: 3px double gray; */
     border-radius: 50px;
-    width: 375;
+    width: 700;
     height: 200;
 }
 
 .prj4{
-    margin: auto;
-    border: 3px double gray;
+    margin: 20px;
+    /* border: 3px double gray; */
     border-radius: 50px;
-    width: 375;
+    width: 700;
     height: 200;
+    float: right;
+    margin-top: -225;
 }
 
-#img1{
-    height: 160;
-    width: 275;
-} */
+.pic1{
+    background-image: url("forWebsite/Screenshot 2023-02-01 101834.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 370;
+    height: 175;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.pic2{
+    background-image: url("forWebsite/tacoBellBG.webp");
+    background-repeat:repeat-x;
+    background-size:80%;
+    background-position: center;
+    background-position-y: -15px;
+    width: 370;
+    height: 175;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.pic3{
+    background-image: url("forWebsite/bankingBG.avif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 370;
+    height: 175;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.pic4{
+    background-image: url("forWebsite/dungeonBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 370;
+    height: 175;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+a{
+    font-family: sans-serif;
+    font-size: large;
+    color: aliceblue;
+}
+
+.text1{
+    color: aliceblue;
+    /* border: 3px solid gray; */
+    margin-left: 30;
+    width: 310;
+    height: 175;
+    text-align: left;
+    float: right;
+    margin-top: -180;
+}
+
+.text2{
+    color: aliceblue;
+    /* border: 3px solid gray; */
+    margin-left: 30;
+    width: 310;
+    height: 175;
+    text-align: left;
+    float: right;
+    margin-top: -180;
+} 
+
+.text3{
+    color: aliceblue;
+    /* border: 3px solid gray; */
+    margin-left: 30;
+    width: 310;
+    height: 175;
+    text-align: left;
+    float: right;
+    margin-top: -180;
+}
+
+.text4{
+    color: aliceblue;
+    /* border: 3px solid gray; */
+    margin-left: 30;
+    width: 310;
+    height: 175;
+    text-align: left;
+    float: right;
+    margin-top: -180;
+}
+
+
