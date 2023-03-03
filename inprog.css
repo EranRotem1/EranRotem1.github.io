@@ -100,7 +100,7 @@ h2{
 }
 
 .vids{
-    border: 3px dotted white;
+    /* border: 3px dotted white; */
     border-radius: 50px;
     width: 1050;
     height: 400;
@@ -112,3 +112,49 @@ video{
     border-radius: 50px;
     margin: 20px;
 }
+
+.projects{
+    margin: auto;
+    border: 3px solid gray;
+    border-radius: 50px;
+    height: 450;
+    width: 1500;
+}
+
+/* .prj1{
+    margin: auto;
+    border: 3px double gray;
+    border-radius: 50px;
+    width: 375;
+    height: 200;
+    align-items: center;
+}
+
+.prj2{
+    margin: auto;
+    border: 3px double gray;
+    border-radius: 50px;
+    width: 375;
+    height: 200;
+}
+
+.prj3{
+    margin: auto;
+    border: 3px double gray;
+    border-radius: 50px;
+    width: 375;
+    height: 200;
+}
+
+.prj4{
+    margin: auto;
+    border: 3px double gray;
+    border-radius: 50px;
+    width: 375;
+    height: 200;
+}
+
+#img1{
+    height: 160;
+    width: 275;
+} */
