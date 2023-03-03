@@ -1,0 +1,114 @@
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+    font-family: sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: rgb(156, 156, 156);
+	transition: .4s;
+}
+
+#port{
+    font-size: 25;
+    font-family: sans-serif;
+    margin-left: 20;
+    color: aliceblue;
+    margin-top: -80;
+}
+
+#name{
+    font-size: 90;
+    font-family: sans-serif;
+    color: aliceblue; 
+    margin-left: 165;
+    margin-bottom: -40;
+}
+
+#se{
+    font-size: 40;
+    margin-left: 165;
+    font-family: sans-serif;
+    text-align: left;
+    color: lightgray;
+    margin-bottom: -30;
+    margin-top: 0;
+}
+
+#aboutText{
+    font-family: sans-serif;
+    color: aliceblue; 
+    font-size: 22;
+}
+
+#aboutHeading{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 35;
+    text-align: center;
+    padding-top: 100;
+}
+
+h2{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 35;
+    text-align: center;
+    padding-top: 100;
+}
+
+.d1{
+    background-color: rgb(24, 24, 24);
+    height: 650px;
+}
+
+.aboutD{
+    text-align: left;
+    height: 350;
+    width: 800;
+    margin-left: 500;
+}
+
+.d2{
+    background-color: black;
+    height: 650px;
+}
+
+.d3{
+    background-color: rgb(28, 28, 28);
+    height: 650px;
+}
+
+.d4{
+    background-color: black;
+    height: 650px;
+}
+
+.vids{
+    border: 3px dotted white;
+    border-radius: 50px;
+    width: 1050;
+    height: 400;
+    margin: auto;
+}
+
+video{
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin: 20px;
+}
