@@ -25,7 +25,7 @@ nav ul li a:hover{
 }
 
 footer{
-    height: 200px;
+    height: 130px;
     background-color: black;
 }
 
@@ -103,24 +103,50 @@ h3{
 .about{
     text-align: left;
     height: fit-content;
-    width: 850px;
+    width: 800px;
     margin-left: 10px;
 }
 
 .vidsDiv{
     background-color: rgb(28, 28, 28);
-    height: 800px;
+    height: 600px;
 }
 
 .projContainer{
     background-color: black;
-    height: 700px;
+    height: 870px;
 
 }
 
-.d4{
+#Edu{
     background-color: black;
-    height: 650px;
+    height: 700px;
+    
+}
+#eduDiv{
+    background-color: rgb(48, 48, 48);
+    border: gray solid 3px;
+    height: 550;
+    width: 1500;
+    margin-top: 50;
+    margin-left: 180;
+    display:inline-flex;
+    justify-content: center;
+}
+#certs{
+    border: gray solid 3px;
+    height: 450;
+    width: 600;
+    margin-top: 50;
+    text-align: center;
+    font-size:x-large;
+}
+#dets{
+    border: gray solid 3px;
+    height: 450;
+    width: 750;
+    margin-left: 50;
+    margin-top: 50;
 }
 
 .d5{
@@ -154,13 +180,12 @@ h3{
 
 video{
     border: 3px solid gray;
-    border-radius: 50px;
+    border-radius: 45px;
     margin: 20px;
     height: 160;
     width: 320;
     background-color: rgb(24, 24, 24);
-    margin-right: 70;
-    margin-left: 70;
+    margin:10px;
 }
 
 .projects{
@@ -173,7 +198,7 @@ video{
     /* text-align: center; */
 }
 
-#p1, #p2, #p3, #p4{
+.p1{
     margin-left: 130px;
 }
 
@@ -188,50 +213,50 @@ video{
 
 }
 
-.pic1{
-    background-image: url("forWebsite/Screenshot 2023-02-01 101834.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
     width: 370;
     height: 175;
     border: 3px solid gray;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-top: 5px;
 }
 
-.pic2{
+#pic1{
+    background-image: url("forWebsite/MysticMiner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pic2{
     background-image: url("forWebsite/tacoBellBG.webp");
     background-repeat:repeat-x;
     background-size:80%;
     background-position: center;
     background-position-y: -15px;
-    width: 370;
-    height: 175;
-    border: 3px solid gray;
-    border-radius: 50px;
-    margin-top: 5px;
 }
 
-.pic3{
+#pic3{
     background-image: url("forWebsite/bankingBG.avif");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 370;
-    height: 175;
-    border: 3px solid gray;
-    border-radius: 50px;
-    margin-top: 5px;
 }
 
-.pic4{
+#pic4{
     background-image: url("forWebsite/dungeonBackground.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 370;
-    height: 175;
-    border: 3px solid gray;
-    border-radius: 50px;
-    margin-top: 5px;
+}
+
+#pic5{
+    background-image: url("forWebsite/ChordFindHome.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pic6{
+    background-image: url("forWebsite/PortfolioWS.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 a{
@@ -240,7 +265,7 @@ a{
     color: aliceblue;
 }
 
-.text1{
+.text{
     color: aliceblue;
     /* border: 3px solid gray; */
     margin-left: 30;
@@ -251,37 +276,5 @@ a{
     margin-top: -180;
 }
 
-.text2{
-    color: aliceblue;
-    /* border: 3px solid gray; */
-    margin-left: 30;
-    width: 310;
-    height: 175;
-    text-align: left;
-    float: right;
-    margin-top: -180;
-} 
-
-.text3{
-    color: aliceblue;
-    /* border: 3px solid gray; */
-    margin-left: 30;
-    width: 310;
-    height: 175;
-    text-align: left;
-    float: right;
-    margin-top: -180;
-}
-
-.text4{
-    color: aliceblue;
-    /* border: 3px solid gray; */
-    margin-left: 30;
-    width: 310;
-    height: 175;
-    text-align: left;
-    float: right;
-    margin-top: -180;
-}
 
 
