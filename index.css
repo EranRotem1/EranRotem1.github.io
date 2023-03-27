@@ -2,7 +2,7 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 25px;
+	padding-top: 15px;
 	padding-left: 8%;
 	padding-right: 8%;
 }
@@ -67,8 +67,9 @@ footer{
     font-family: sans-serif;
     color: aliceblue;
     font-size: 35;
-    text-align: center;
+    text-align: left;
     padding-top: 100;
+    padding-left: 10;
 }
 
 h2{
@@ -79,35 +80,41 @@ h2{
     padding-top: 50;
 }
 
-.d{
-    width: 1950;
-    height: 820;
+h3{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.main{
+    width: 1880;
+    height: 850;
     background-image: url("forWebsite/chicagoBG2.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.d1{
+.summary{
     background-color: rgb(24, 24, 24);
-
     height: 650px;
+    display: flex;
+    justify-content: center;
 }
 
-.aboutD{
+.about{
     text-align: left;
-    height: 350;
-    width: 800;
-    margin-left: 500;
+    height: fit-content;
+    width: 850px;
+    margin-left: 10px;
 }
 
-.d2{
-    background-color: black;
-    height: 750px;
-}
-
-.d3{
+.vidsDiv{
     background-color: rgb(28, 28, 28);
-    height: 650px;
+    height: 800px;
+}
+
+.projContainer{
+    background-color: black;
+    height: 700px;
 
 }
 
@@ -160,62 +167,25 @@ video{
     margin: auto;
     border: 3px solid gray;
     background-color: rgb(47, 47, 47);
-    border-radius: 50px;
-    height: 450;
+    border-radius: 20px;
+    height: fit-content;
     width: 1500;
     /* text-align: center; */
 }
 
-#p1{
-    margin-left: 130px;
-}
-#p2{
-    margin-left: 130px;
-}
-#p3{
-    margin-left: 130px;
-}
-#p4{
+#p1, #p2, #p3, #p4{
     margin-left: 130px;
 }
 
-.prj1{
+.prj{
     margin: 20px;
     /* border: 3px double gray; */
-    border-radius: 50px;
+    border-radius: 20px;
     width: 700;
     height: 200;
     margin-top: 10px;
+    display: inline-block;
 
-}
-
-.prj2{
-    margin: 20px;
-    /* border: 3px double gray; */
-    border-radius: 50px;
-    width: 700;
-    float: right;
-    height: 200;
-    margin-top: -225;
-
-}
-
-.prj3{
-    margin: 20px;
-    /* border: 3px double gray; */
-    border-radius: 50px;
-    width: 700;
-    height: 200;
-}
-
-.prj4{
-    margin: 20px;
-    /* border: 3px double gray; */
-    border-radius: 50px;
-    width: 700;
-    height: 200;
-    float: right;
-    margin-top: -225;
 }
 
 .pic1{

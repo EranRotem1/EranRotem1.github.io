@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Eran Rotem</title>
-        <link rel="stylesheet" type="text/css" href="inprog.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body style="background-color: black;">
         <header>
@@ -10,15 +10,15 @@
                 <ul>
                     <li><a href="https://docs.google.com/document/d/1ujvt_zItw0i35y1Si97z1ZBtmns7sky9J6MREu0oN9U/edit?usp=sharing">Resume</a></li>
                     <li><a href="#summary">About</a></li>
-                    <li><a href="#videos">Videos</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#videos">Videos</a></li>
                     <li><a href="#edu">Education</a></li>
                     <li><a href="#about2">IFAQ</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="d">
+            <div class="main">
                 <p style="height: 300;"></p>
                 <h1 id="name">Eran Rotem</h1>
                 <h2 id="se">Software Engineer</h2>
@@ -33,9 +33,14 @@
                 <p style="height: 220;"></p>
             </div>
         
-            <div class="d1">
+            <div class="summary">
                 <a id="summary"></a>
-                <div class="aboutD">
+                <img src="C:\Users\eran rotem\Desktop\repo\EranRotem1.github.io\forWebsite\aboutPic.jpg" alt="" 
+                style="border-radius: 30%;
+                       height: 400px;
+                       margin-top: 100px;
+                       margin-right: 120px;">
+                <div class="about">
                     <h2 id="aboutHeading">About Me</h2>
                     <p id="aboutText">Detail and results-oriented software engineer. 
                         Skilled  in full-stack development using object oriented 
@@ -51,53 +56,22 @@
                         and articulately communicating about programming, and planning, 
                         executing, and optimizing elegant and creative logic oriented solutions.</p>
                 </div>
-                <img src="" alt="">
             </div>
 
-            <div class="d2">
-                <div class="videos">
-                    <a id="videos"></a>
-                    <h2 id="vidsHeadline">Videos</h2>
-                    <div class="vids">
-                        <video controls id="v1">
-                            <source src="C:/Users/eran rotem/Videos/Zoom/WC03_1.mp4"
-                            type="video/mp4">Not Supported
-                        </video>
-                        <video controls id="v2" >
-                            <source src="" 
-                            type="video/mp4">Not Supported
-                        </video>
-                        <video controls id='v3'>
-                            <source src="C:/Users/eran rotem/Videos/Zoom/WC03_3.mp4" 
-                            type="video/mp4">Not Supported
-                        </video>
-                        <video controls id="v4">
-                            <source src="" 
-                            type="video/mp4">Not Supported
-                        </video>
-                        <video controls id='v5'>
-                            <source src="C:/Users/eran rotem/Videos/Zoom/WC03_4.mp4" 
-                            type="video/mp4">Not Supported
-                        </video>
-                        <video controls id="v6">
-                            <source src="" 
-                            type="video/mp4">Not Supported
-                        </video>
-                    </div>
-                </div>
-            </div>
+           
 
-            <div class="d3">
+            <div class="projContainer">
                 <a id="projects"></a>
-                <h2>Projects</h2>
+                <h2 style="text-align: left;
+                           margin-left: 200px;">Projects</h2>
                 <form class="projects">
                     
-                    <div class="prj1">
+                    <div class="prj">
                         <a id='p1' href="https://github.com/EranRotem1/MysticalMineshaft">Mystical Mineshaft</a>
                         <div class="pic1"></div>
                         <div class="text1">
                             <ul>
-                                <li></li>
+                                <li>Python, Pygame Library</li>
                                 <li></li>
                                 <li></li>
                                 <li></li>
@@ -106,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="prj2">
+                    <div class="prj">
                         <a id="p2" href="https://github.com/EranRotem1/TacoParser/tree/main/LoggingKata">Taco Parser</a>
                         <div class="pic2"></div>
                         <div class="text2">
@@ -120,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="prj3">
+                    <div class="prj">
                         <a id='p3' href="https://github.com/EranRotem1/BankEncapsulation-project">J&E Banking App</a>
                         <div class="pic3"></div>
                         <div class="text3">
@@ -134,7 +108,7 @@
                         </div>
                     </div>
 
-                    <div class="prj4">
+                    <div class="prj">
                         <a id="p4" href="https://github.com/EranRotem1/StoryAdventure/blob/main/Program.cs">Text Adventure Game</a>
                         <div class="pic4"></div>
                         <div class="text4">
@@ -149,10 +123,57 @@
                     </div>
                 </form>
             </div>
+
+            <div class="vidsDiv">
+                <div class="videos">
+                    <a id="videos"></a>
+                    <h2 id="vidsHeadline">Videos</h2>
+                    <div class="vids">
+                        <video controls id="v1">
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                        <video controls id="v2" >
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                        <video controls id='v3'>
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                        <video controls id="v4">
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                        <video controls id='v5'>
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                        <video controls id="v6">
+                            <source src="" 
+                            type="video/mp4">Not Supported
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
             <div class="d4">
                 <a id="edu"></a>
                 <h2>Education</h2>
-
+                <div id="certs">
+                    <h3>Certificates</h3>
+                    <p></p>
+                </div>
+                <div id="dets">
+                    <h3>TrueCoders Bootcamp</h3>
+                    <p></p>
+                    <h3>SoloLearn</h3>
+                    <p></p>
+                    <h3>Udemy Bootcamps</h3>
+                    <p></p>
+                    <h3>W3Schools</h3>
+                    <p></p>
+                </div>
             </div>
             <div class="d5">
                 <a id="about2"></a>
