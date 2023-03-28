@@ -26,8 +26,9 @@ nav ul li a:hover{
 
 footer{
     height: 130px;
-    background-color: black;
-}
+    /* background-color: black; */
+    background-color: rgb(28, 28, 28);
+}   
 
 #port{
     font-size: 25;
@@ -80,22 +81,21 @@ h2{
     padding-top: 50;
 }
 
-h3{
+h3, p{
     font-family: sans-serif;
     color: aliceblue;
 }
 
 .main{
-    width: 1880;
     height: 850;
     background-image: url("forWebsite/chicagoBG2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
 }
 
 .summary{
     background-color: rgb(24, 24, 24);
-    height: 650px;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
@@ -114,45 +114,68 @@ h3{
 
 .projContainer{
     background-color: black;
-    height: 870px;
+    height: 925px;
 
 }
 
 #Edu{
-    background-color: black;
-    height: 700px;
+    /* background-color: black; */
+    background-color: rgb(24, 24, 24);
+    height: 750px;
     
 }
 #eduDiv{
     background-color: rgb(48, 48, 48);
     border: gray solid 3px;
+    border-radius: 20px;
     height: 550;
     width: 1500;
     margin-top: 50;
-    margin-left: 180;
+    margin-left: 190;
     display:inline-flex;
     justify-content: center;
 }
 #certs{
+    /* border: gray solid 3px; */
+    /* height: 500; */
+    width: 750;
+    height: fit-content;
+    /* width: fit-content; */
+    display: inline-block;
+    justify-content: center;
+    margin-top: 70;
+    margin-left: -150;
+}
+#cert3, #cert4, #cert5, #cert1, #cert2, #cert6{
     border: gray solid 3px;
-    height: 450;
-    width: 600;
-    margin-top: 50;
-    text-align: center;
-    font-size:x-large;
+    margin-left: 15;
+    margin-top: 15;
+    display: inline-block;  
 }
 #dets{
-    border: gray solid 3px;
+    /* border: gray solid 3px; */
     height: 450;
-    width: 750;
-    margin-left: 50;
+    width: 600;
+    margin-left: 30;
     margin-top: 50;
 }
+#dets ul{
+    color: aliceblue;
+}
 
-.d5{
-    background-color: rgb(26, 26, 26);
-    height: 650px;
-
+.IFAQ{
+    /* background-color: rgb(26, 26, 26); */
+    background-color: black;
+    height: 450px;
+    display: inline-block;
+    justify-content: center;    
+    text-align: center;
+}
+#IFAQText{
+    width: 1350;
+    height: fit-content;
+    margin-left: 260;
+    /* border: gray solid 3px; */
 }
 
 .vids{
@@ -275,6 +298,9 @@ a{
     float: right;
     margin-top: -180;
 }
+
+
+
 
 
 
