@@ -1,3 +1,26 @@
+/* general */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+h2{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 35;
+    text-align: center;
+    padding-top: 50;
+}
+h3, p{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+a{
+    font-family: sans-serif;
+    font-size: large;
+    color: aliceblue;
+}
+
+
+
+/* header and footer */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 nav{
 	display: flex;
 	align-items: center;
@@ -6,7 +29,6 @@ nav{
 	padding-left: 8%;
 	padding-right: 8%;
 }
-
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
@@ -23,7 +45,6 @@ nav ul li a:hover{
 	color: rgb(115, 115, 115);
 	transition: .4s;
 }
-
 footer{
     height: 230px;
     /* background-color: black; */
@@ -38,6 +59,34 @@ footer{
     margin: 5px;
 }
 
+
+
+/* main  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("forWebsite/chicagoBG2.jpg");
+    background-repeat: no-repeat;
+    background-size: 125%;
+}
+#name{
+    font-size: 90;
+    font-family: sans-serif;
+    color: rgb(210, 210, 210); 
+    margin-left: 165;
+    margin-bottom: -50;
+    margin-top: -20;
+}
+#title{
+    font-size: 40;
+    margin-left: 165;
+    font-family: sans-serif;
+    text-align: left;
+    color: rgb(184, 184, 184);
+    margin-bottom: -30;
+    margin-top: -30;
+}
 #port{
     font-size: 25;
     font-family: sans-serif;
@@ -47,90 +96,127 @@ footer{
     margin-bottom: -10;
 }
 
-#name{
-    font-size: 90;
-    font-family: sans-serif;
-    color: rgb(210, 210, 210); 
-    margin-left: 165;
-    margin-bottom: -50;
-    margin-top: -20;
-}
 
-#se{
-    font-size: 40;
-    margin-left: 165;
-    font-family: sans-serif;
-    text-align: left;
-    color: rgb(184, 184, 184);
-    margin-bottom: -30;
-    margin-top: -30;
-}
 
-#aboutText{
-    font-family: sans-serif;
-    color: aliceblue; 
-    font-size: 22;
-}
-
-#aboutHeading{
-    font-family: sans-serif;
-    color: aliceblue;
-    font-size: 35;
-    text-align: left;
-    padding-top: 100;
-    padding-left: 10;
-}
-
-h2{
-    font-family: sans-serif;
-    color: aliceblue;
-    font-size: 35;
-    text-align: center;
-    padding-top: 50;
-}
-
-h3, p{
-    font-family: sans-serif;
-    color: aliceblue;
-}
-
-.main{
-    height: 850;
-    background-image: url("forWebsite/chicagoBG2.jpg");
-    background-repeat: no-repeat;
-    background-size: 120%;
-}
-
+/* summary */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .summary{
     background-color: rgb(24, 24, 24);
-    height: 600px;
+    height: fit-content;
+    width: auto;
     display: flex;
     justify-content: center;
 }
-
 .about{
     text-align: left;
     height: fit-content;
     width: 800px;
     margin-left: 10px;
 }
-
-.vidsDiv{
-    background-color: rgb(28, 28, 28);
-    height: 600px;
+#aboutText{
+    font-family: sans-serif;
+    color: aliceblue; 
+    font-size: 22;
+}
+#aboutHeading{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 35;
+    text-align: left;
+    padding-top: 30;
+    padding-left: 10;
 }
 
+
+
+/* projects */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .projContainer{
     background-color: black;
-    height: 925px;
+    height: fit-content;
+    width: auto;
+}
+.projects{
+    margin:0px 175px 100px;
+    border: 3px solid gray;
+    background-color: rgb(47, 47, 47);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    /* text-align: center; */
+}
+.text{
+    color: aliceblue;
+    /* border: 3px solid gray; */
+    margin-left: 30;
+    width: 310;
+    height: 175;
+    text-align: left;
+    float: right;
+    margin-top: -180;
+}
+.p1{
+    margin-left: 130px;
+}
+.prj{
+    margin: 20px;
+    /* border: 3px double gray; */
+    border-radius: 20px;
+    width: 700;
+    height: 200;
+    margin-top: 10px;
+    display: inline-block;
 
 }
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+    width: 370;
+    height: 175;
+    border: 3px solid gray;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+#pic1{
+    background-image: url("forWebsite/MysticMiner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pic2{
+    background-image: url("forWebsite/tacoBellBG.webp");
+    background-repeat:repeat-x;
+    background-size:80%;
+    background-position: center;
+    background-position-y: -15px;
+}
+#pic3{
+    background-image: url("forWebsite/KVsRS.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pic4{
+    background-image: url("forWebsite/dungeonBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pic5{
+    background-image: url("forWebsite/ChordFindHome.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pic6{
+    background-image: url("forWebsite/PortfolioWS.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+
+
+/* education */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #Edu{
     /* background-color: black; */
     background-color: rgb(24, 24, 24);
-    height: 750px;
-    
+    height: fit-content;
+    width: auto;
 }
 #eduDiv{
     background-color: rgb(48, 48, 48);
@@ -140,6 +226,7 @@ h3, p{
     width: 1500;
     margin-top: 50;
     margin-left: 190;
+    margin-bottom: 70;
     display:inline-flex;
     justify-content: center;
 }
@@ -171,44 +258,59 @@ h3, p{
     color: aliceblue;
 }
 
+
+
+/* ifaq */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .IFAQ{
     /* background-color: rgb(26, 26, 26); */
     background-color: black;
-    height: 450px;
+    width: 100%;
+    height: fit-content;
     display: inline-block;
     justify-content: center;    
     text-align: center;
 }
 #IFAQText{
-    width: 1350;
+    width: fit-content;
     height: fit-content;
-    margin-left: 260;
+    display: inline-block;
+    justify-content: center;    
+    margin-bottom: 50;
+    /* margin-left: 260;
+    margin-bottom: 50; */
     /* border: gray solid 3px; */
 }
 
-.vids{
-    /* border: 3px dotted white; */
+
+
+/* vids */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* .vids{
+    border: 3px dotted white;
     border-radius: 50px;
     width: 1050;
     height: 400;
     margin-left: 400;
-}
+} */
 /* .v1{
     border-radius: 50px;
     width: 1050;
     height: 400;
     margin: auto;
 } */
-#vidsHeadline{
+/* #vidsHeadline{
     margin-left: -30;
 }
-
 .videos{
     margin: auto;
     text-align: center;
     
 }
-
+/* .vidsDiv{
+    background-color: rgb(28, 28, 28);
+    height: 600px;
+}
 video{
     border: 3px solid gray;
     border-radius: 45px;
@@ -217,98 +319,4 @@ video{
     width: 320;
     background-color: rgb(24, 24, 24);
     margin:10px;
-}
-
-.projects{
-    margin: auto;
-    border: 3px solid gray;
-    background-color: rgb(47, 47, 47);
-    border-radius: 20px;
-    height: fit-content;
-    width: 1500;
-    /* text-align: center; */
-}
-
-.p1{
-    margin-left: 130px;
-}
-
-.prj{
-    margin: 20px;
-    /* border: 3px double gray; */
-    border-radius: 20px;
-    width: 700;
-    height: 200;
-    margin-top: 10px;
-    display: inline-block;
-
-}
-
-#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
-    width: 370;
-    height: 175;
-    border: 3px solid gray;
-    border-radius: 20px;
-    margin-top: 5px;
-}
-
-#pic1{
-    background-image: url("forWebsite/MysticMiner.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#pic2{
-    background-image: url("forWebsite/tacoBellBG.webp");
-    background-repeat:repeat-x;
-    background-size:80%;
-    background-position: center;
-    background-position-y: -15px;
-}
-
-#pic3{
-    background-image: url("forWebsite/KVsRS.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#pic4{
-    background-image: url("forWebsite/dungeonBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#pic5{
-    background-image: url("forWebsite/ChordFindHome.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#pic6{
-    background-image: url("forWebsite/PortfolioWS.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-a{
-    font-family: sans-serif;
-    font-size: large;
-    color: aliceblue;
-}
-
-.text{
-    color: aliceblue;
-    /* border: 3px solid gray; */
-    margin-left: 30;
-    width: 310;
-    height: 175;
-    text-align: left;
-    float: right;
-    margin-top: -180;
-}
-
-
-
-
-
-
+} */
