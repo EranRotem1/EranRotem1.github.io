@@ -25,10 +25,18 @@ nav ul li a:hover{
 }
 
 footer{
-    height: 130px;
+    height: 230px;
     /* background-color: black; */
     background-color: rgb(28, 28, 28);
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    width:100%;
 }   
+.logo{
+    /* border: white 3px solid; */
+    margin: 5px;
+}
 
 #port{
     font-size: 25;
@@ -259,7 +267,7 @@ video{
 }
 
 #pic3{
-    background-image: url("forWebsite/bankingBG.avif");
+    background-image: url("forWebsite/KVsRS.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
