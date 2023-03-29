@@ -1,18 +1,18 @@
 /* general */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 h2{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: 35;
     text-align: center;
     padding-top: 50;
 }
-h3, p{
-    font-family: sans-serif;
+h3, p, li{
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
 a{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: aliceblue;
 }
@@ -46,7 +46,7 @@ nav ul li a:hover{
 	transition: .4s;
 }
 footer{
-    height: 230px;
+    height: fit-content;
     /* background-color: black; */
     background-color: rgb(28, 28, 28);
     text-align: center;
@@ -54,9 +54,20 @@ footer{
     justify-content: center;
     width:100%;
 }   
+#footNav{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    padding: 0%;
+    margin:-25px 0px -25px;
+}
+#footNav li{
+    padding: 15;
+}
 .logo{
     /* border: white 3px solid; */
     margin: 5px;
+    margin-bottom: 20;
 }
 
 
@@ -222,24 +233,25 @@ footer{
     background-color: rgb(48, 48, 48);
     border: gray solid 3px;
     border-radius: 20px;
-    height: 550;
-    width: 1500;
-    margin-top: 50;
-    margin-left: 190;
-    margin-bottom: 70;
+    height: fit-content;
+    width: fit-content;
+    margin: 50 175 70;
+    /* margin-left: 190;
+    margin-bottom: 70; */
     display:inline-flex;
     justify-content: center;
 }
 #certs{
     /* border: gray solid 3px; */
     /* height: 500; */
-    width: 750;
+    width: fit-content;
     height: fit-content;
-    /* width: fit-content; */
     display: inline-block;
     justify-content: center;
-    margin-top: 70;
-    margin-left: -150;
+    /* margin-top: 70;
+    margin-bottom: 100;*/
+    margin-left: 50; 
+    
 }
 #cert3, #cert4, #cert5, #cert1, #cert2, #cert6{
     border: gray solid 3px;
@@ -249,13 +261,16 @@ footer{
 }
 #dets{
     /* border: gray solid 3px; */
-    height: 450;
-    width: 600;
-    margin-left: 30;
-    margin-top: 50;
+    height: fit-content;
+    width: fit-content;
+    margin:30 0 30;
+    /* margin-top: 50; */
 }
 #dets ul{
     color: aliceblue;
+}
+.eduHeader{
+    margin-bottom: -10 ;
 }
 
 
@@ -272,7 +287,7 @@ footer{
     text-align: center;
 }
 #IFAQText{
-    width: fit-content;
+    width: 40%;
     height: fit-content;
     display: inline-block;
     justify-content: center;    
@@ -280,6 +295,9 @@ footer{
     /* margin-left: 260;
     margin-bottom: 50; */
     /* border: gray solid 3px; */
+}
+#IFAQText p{
+    margin: -10 0 10;
 }
 
 

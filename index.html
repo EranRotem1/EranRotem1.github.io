@@ -179,20 +179,20 @@
             </div> -->
             
             <section id="Edu">
+                <a id="edu"></a>
                 <h2 style="text-align: left;
                     margin-left: 200px; 
                     margin-top: -30px;
                     margin-bottom: -30;">Education</h2>
                 <div id="eduDiv">
-                    <h3 style="text-align: left; font-size:x-large; margin-left: 30; ">Certificates</h3>
-                    <a id="edu"></a>
                     <div id="certs">
+                        <h3 style="text-align: center; font-size:x-large; margin-left: -50 ; display: block; ">Certificates</h3>
                         <div id="cert1">
                             <a>
                                 <img src="" alt="" style="width: 225; height: 160;">
                             </a>
                         </div>
-                        <div id="cert2">
+                        <!-- <div id="cert2">
                             <a>
                                 <img src="" alt="" style="width: 225; height: 160;">
                             </a>
@@ -200,8 +200,8 @@
                         <div id="cert3">
                             <a>
                                 <img src="" alt="" style="width: 225; height: 160;">
-                            </a>
-                        </div>
+                            </a> 
+                        </div>-->
                         <div id="cert4"> 
                             <a href="https://www.sololearn.com/certificates/CC-81ZUMEGF">
                                 <img src="forWebsite/IntroSQLCert.jpg" style="width: 225;"></a>
@@ -218,33 +218,35 @@
                         </div>
                         
                     </div>
+                    
                     <div id="dets">
-                        <h3 style="margin-bottom: -10 ;">TrueCoders Bootcamp</h3>
+                        <h3 class="eduHeader">TrueCoders Bootcamp</h3>
                         <ul>
-                            <li>10 week full-time, full stack software engineering bootcamp</li>
+                            <li>Full stack software engineering bootcamp.</li>
                             <li>Practiced collaborative coding, and built a community of other programmers.</li>
-                            <li>Learned C#, .NET Core framework, JavaScript, SQL, software engineering principles such as TDD, SOLID, APIs, OOP, APIE, DRY, CCR, Design Patterns, etc. and improved my grasp of HTML and CSS</li>
+                            <li>Learned C#, .NET Core framework, JavaScript, SQL, software engineering principles 
+                                such as TDD, SOLID, APIs, OOP, APIE, DRY, CCR, Design Patterns, etc. and improved my grasp of HTML and CSS.</li>
                         </ul>
-                        <h3>SoloLearn</h3>
+                        <h3 class="eduHeader">SoloLearn</h3>
                         <p></p>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Multiple certificates in different programming languages.</li>
+                            <li>Learned or improved HTML, CSS, SQL, JavaScript.</li>
+                            <a href="https://www.sololearn.com/learn">SoloLearn Account</a>
                         </ul>
-                        <h3>Udemy Bootcamps</h3>
+                        <h3 class="eduHeader">Udemy Bootcamps</h3>
                         <p></p>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Multiple full stack development bootcamp certificates.</li>
+                            <li>Learned or improved Python, HTML, CSS</li>
+                            <li><a href="https://www.udemy.com/home/my-courses/learning/">Udemy Account</a></li>
                         </ul>
-                        <h3>W3Schools</h3>
+                        <h3 class="eduHeader">W3Schools</h3>
                         <p></p>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Have completed multiple programs: Tutorials, exercises, quizzes.</li>
+                            <li>Learned or improved C#, Python, HTML, CSS, JavaScript, ASP.NET.</li>
+                            <li><a href="https://my-learning.w3schools.com/">W3Schools Account</a></li>
                         </ul>
                     </div>
                 </div>
@@ -254,12 +256,18 @@
                 <a id="about2"></a>
                 <h2 style="margin: 0 0 10;">Infrequently Asked Questions</h2>
                 <div id="IFAQText">
-                    <h3>What do you like to do in your spare time?</h3>
-                    <p>details</p>
-                    <h3>What are your hobbies?</h3>
-                    <p>details</p>
-                    <h3>What are your career goals?</h3>
-                    <p>details</p>
+                    <h3>What music are you currently listening to?</h3>
+                    <p>Actually I've been listening to a lot podcasts, but generally Indie (Rock and Pop) and Soul/Jazz pop</p>
+                    <h3>What would you rather be doing right now?</h3>
+                    <p>Good question, Scuba diving.</p>
+                    <h3>Coffee or Tea?</h3>
+                    <p>Coffee at a cafe, tea at home. Black tea, sugary coffee.</p>
+                    <h3>Hobbies/interests/passions?</h3>
+                    <p>TLDR (too long, didn't read): I have ADHD</p>
+                    <p> Scuba diving, Skydiving, Music (piano and guitar), Learning (spoken languages, 
+                        science, psychology, philosophy, music, kind of anything though), Performing (improv, stand-up, acting), 
+                         Art/crafts (ceramics, drawing, writing, widdling), Programming (using coding to solve problems in my life,
+                        EX: ChordFind app), Robotics (just starting my research but very excited).</p>
                 </div>
             </div>
 
@@ -267,11 +275,19 @@
         <footer>
             <br>
             <br>
+                <nav id="footNav">
+                    <ul>
+                        <li style="color: aliceblue;">Navigation: </li>
+                        <li><a href="#summary">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#edu">Education</a></li>
+                    </ul>
+                </nav>
             <p>This website was created by Eran Rotem using HTML, CSS, and JS</p>
             <p>Languages I use:</p>
             <img class="logo" src="forWebsite\Csharp_Logo.png" alt="" height="70" width="70">
             <img class="logo" src="forWebsite\Python-logo-notext.svg.png" alt="" height="60" width="60">
-            <img class="logo" src="forWebsite\HTML_CSS_JS_logos.png" alt="" height="60" width="200" style="margin-bottom:7px ;">
+            <img class="logo" src="forWebsite\HTML_CSS_JS_logos.png" alt="" height="60" width="200" style="margin-bottom:30px ;">
             <img class="logo" src="forWebsite\SQLLogo.svg" height="60" width="60">
         </footer>
     </body>
