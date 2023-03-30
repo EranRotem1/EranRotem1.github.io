@@ -123,14 +123,12 @@ footer{
     justify-content: center;
     height: fit-content;
     width: fit-content;
-    margin: 5%;
-    margin-top: 0%;
+    margin: 0% 20% 2%;
 }
 .about{
     text-align: left;
     height: fit-content;
     width: fit-content;
-    margin-right:20% ;
     /* margin-left: 10px; */
 }
 #aboutText{
@@ -157,7 +155,7 @@ footer{
     width: auto;
 }
 .projects{
-    margin:0px 175px 100px;
+    margin:0px 10% 5%;
     border: 3px solid gray;
     background-color: rgb(47, 47, 47);
     border-radius: 20px;
