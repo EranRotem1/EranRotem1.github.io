@@ -155,7 +155,7 @@ footer{
     width: auto;
 }
 .projects{
-    margin:0px 10% 5%;
+    margin:0px 7% 5%;
     border: 3px solid gray;
     background-color: rgb(47, 47, 47);
     border-radius: 20px;
@@ -257,7 +257,9 @@ footer{
     justify-content: center;
     /* margin-top: 70;
     margin-bottom: 100;*/
-    margin-left: 50; 
+    margin:0 0 20; 
+    margin-left: 5%;
+    margin-right: -5%;
     
 }
 #cert3, #cert4, #cert5, #cert1, #cert2, #cert6{
@@ -270,7 +272,7 @@ footer{
     /* border: gray solid 3px; */
     height: fit-content;
     width: fit-content;
-    margin:30 0 30;
+    margin:30 5% 30;
     /* margin-top: 50; */
 }
 #dets ul{
