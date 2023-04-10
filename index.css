@@ -155,12 +155,15 @@ footer{
     width: auto;
 }
 .projects{
-    margin:0px 7% 5%;
+    margin:0px 5% 5%;
     border: 3px solid gray;
     background-color: rgb(47, 47, 47);
     border-radius: 20px;
     height: fit-content;
     width: fit-content;
+    /* display: block;
+    justify-content: center; */
+    padding-left: 5%;
     /* text-align: center; */
 }
 .text{
@@ -242,7 +245,7 @@ footer{
     border-radius: 20px;
     height: fit-content;
     width: fit-content;
-    margin: 0 10% 5%;
+    margin: 0 5% 5%;
     /* margin-left: 190;
     margin-bottom: 70; */
     display:inline-flex;
@@ -259,10 +262,10 @@ footer{
     margin-bottom: 100;*/
     margin:0 0 20; 
     margin-left: 5%;
-    margin-right: -5%;
+    /* margin-right: -5%; */
     
 }
-#cert3, #cert4, #cert5, #cert1, #cert2, #cert6{
+#cert3, #cert4, #cert5, #cert1, #cert2, #cert6, #cert7{
     border: gray solid 3px;
     margin-left: 15;
     margin-top: 15;
